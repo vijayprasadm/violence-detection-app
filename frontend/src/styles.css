@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; margin: 24px; }
+.container { max-width: 720px; margin: auto; }
+button { padding: 8px 12px; }
+.result { margin-top: 12px; padding: 12px; border: 1px solid #ddd; border-radius: 6px; }

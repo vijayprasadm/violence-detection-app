@@ -1,0 +1,14 @@
+{
+  "name": "violence-detect-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "18.x",
+    "react-dom": "18.x",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
