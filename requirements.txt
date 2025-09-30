@@ -1,7 +1,9 @@
-torch==2.8.0
-torchvision==0.15.2
-opencv-python-headless
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+opencv-python
 numpy
-streamlit
-tqdm
+streamlit==1.50.0
+rich
 pandas
+requests
