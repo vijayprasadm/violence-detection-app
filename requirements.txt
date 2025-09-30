@@ -1,9 +1,16 @@
---find-links https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
+# Streamlit UI
+streamlit==1.50.0
+
+# PyTorch stack
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# Video and image processing
 opencv-python
 numpy
-streamlit==1.50.0
-rich
-pandas
-requests
+
+# Optional: for extra visualization
+altair!=5.4.0,!=5.4.1,<6,>=4.0
+pandas<3,>=1.4.0
+pydeck<1,>=0.8.0b4
