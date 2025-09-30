@@ -1,6 +1,7 @@
-torch==2.5.0
-torchvision==0.20.0
+torch==2.8.0
+torchvision==0.15.2
 opencv-python-headless
-pandas
-tqdm
+numpy
 streamlit
+tqdm
+pandas
