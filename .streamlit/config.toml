@@ -1,0 +1,6 @@
+# .streamlit/config.toml
+[server]
+# This tells Streamlit to use the Python binary installed by packages.txt
+# instead of the default environment (Python 3.13.7).
+# On Debian-based systems (like the one Streamlit Cloud uses), python3.11 is the executable name.
+pythonExecutable = "python3.11"
