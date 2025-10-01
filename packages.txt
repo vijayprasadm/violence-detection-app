@@ -1,3 +1,2 @@
-# packages.txt
-python3.11  # Keeps the correct Python environment installed
-libgl1      # Provides the missing libGL.so.1 for OpenCV
+python3.11
+libgl1
