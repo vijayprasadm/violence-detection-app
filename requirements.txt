@@ -1,6 +1,6 @@
 streamlit==1.32.0
-torch==2.5.0         # UPGRADED from 2.2.2
-torchvision==0.18.0  # UPGRADED to match torch==2.5.0 (or check current Pytorch site for the exact match)
-torchaudio==2.5.0    # UPGRADED from 2.2.2
+torch==2.5.0         # Kept as it downloaded successfully (torch-2.5.0-cp313...)
+torchvision==0.22.0  # UPGRADED to one of the available versions (0.21.0, 0.22.0, 0.22.1, 0.23.0)
+torchaudio==2.5.0    # Kept to match the torch major/minor version
 opencv-python
 numpy
